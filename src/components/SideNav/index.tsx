@@ -10,7 +10,7 @@ const SideNav = () => {
         {Navlinks.map((navLink) => (
           <div
             key={navLink.name}
-            className={`flex items-center px-4 py-2 gap-3 w-full cursor-pointer ${
+            className={`flex items-center px-4 py-2 gap-3 w-full cursor-pointer mb-[2px] ${
               navLink.selected
                 ? 'bg-[#ffffff10] rounded'
                 : 'hover:bg-[#ffffff10] hover:rounded'

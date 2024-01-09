@@ -1,7 +1,7 @@
 import { Wallet } from 'assets/Images';
 
 const AvailableCredits = () => (
-  <div className="flex w-[192px] py-[6px] px-3 bg-[#353C53] items-center gap-3">
+  <div className="flex w-[192px] py-[6px] px-3 bg-[#353C53] items-center gap-3 rounded">
     <div className="flex items-center justify-center rounded bg-[#ffffff10] p-[6px]">
       <img src={Wallet} alt="" />
     </div>
