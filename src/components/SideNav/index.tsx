@@ -11,7 +11,9 @@ const SideNav = () => {
           <div
             key={navLink.name}
             className={`flex items-center px-4 py-2 gap-3 w-full cursor-pointer ${
-              navLink.selected ? 'bg-[#ffffff10] rounded-[4px]' : 'hover:bg-[#ffffff10] hover:rounded-[4px]'
+              navLink.selected
+                ? 'bg-[#ffffff10] rounded'
+                : 'hover:bg-[#ffffff10] hover:rounded'
             }`}
           >
             <img src={navLink.icon} alt="" width={20} height={20} />

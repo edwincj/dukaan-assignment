@@ -20,6 +20,8 @@ import DownArrow from './DownArrow.svg';
 import ArrowBlack from './ArrowBlack.svg';
 import Download from './Download.svg';
 import Sort from './Sort.svg';
+import Triangle from './Triangle.svg';
+import Info from './Info.svg';
 
 export {
   Wallet,
@@ -44,4 +46,6 @@ export {
   ArrowBlack,
   Download,
   Sort,
+  Triangle,
+  Info,
 };

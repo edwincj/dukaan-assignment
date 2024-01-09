@@ -1,7 +1,7 @@
 import { Chat, DownArrow, How, Search } from 'assets/Images';
 
 const PaymentsHeader = () => (
-  <div className="flex px-8 py-3 gap-4">
+  <div className="flex px-8 py-3 gap-4 border-b border-[#D9D9D9]">
     <div className="flex-1 flex items-center gap-4">
       <div className="text-[15px]">Payments</div>
       <div className="flex gap-[6px] items-center cursor-pointer">
